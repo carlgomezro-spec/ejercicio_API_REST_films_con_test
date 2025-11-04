@@ -1,0 +1,157 @@
+{
+  "numFailedTestSuites": 2,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 2,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 2,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 3,
+  "numTotalTests": 2,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1762245947609,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1762245947740,
+        "runtime": 88,
+        "slow": false,
+        "start": 1762245947652
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/carlosgomez/Desktop/the-bridge/ejercicio_API_REST_films_con_test/test/env.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Environment setup"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Environment setup should have a .env file in the root directory",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should have a .env file in the root directory"
+        },
+        {
+          "ancestorTitles": [
+            "Environment setup"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Environment setup should have API_KEY defined in the .env file",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should have API_KEY defined in the .env file"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    ReferenceError: title is not defined\n\n    \u001b[0m \u001b[90m 13 |\u001b[39m }\u001b[0m\n    \u001b[0m \u001b[90m 14 |\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m module\u001b[33m.\u001b[39mexports \u001b[33m=\u001b[39m fetchFilm(title)\u001b[0m\n    \u001b[0m \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\n      \u001b[2mat Object.title (\u001b[22mutils/fetchFilm.js\u001b[2m:15:28)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22mcontrollers/films.controllers.js\u001b[2m:1:23)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22mroutes/films.js\u001b[2m:2:25)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22mapp.js\u001b[2m:10:21)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:2:13)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "runtime": 0,
+        "slow": false,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": {},
+      "testFilePath": "/Users/carlosgomez/Desktop/the-bridge/ejercicio_API_REST_films_con_test/test/films.test.js",
+      "testResults": []
+    },
+    {
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module '../utils/fetchFilms' from 'test/fetchFilms.test.js'\n\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 |\u001b[39m \u001b[36mconst\u001b[39m fetchFilm \u001b[33m=\u001b[39m require(\u001b[32m'../utils/fetchFilms'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m   |\u001b[39m                                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 2 |\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 3 |\u001b[39m describe(\u001b[32m'fetchFilm utility'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m 4 |\u001b[39m   it(\u001b[32m'should return movie details for a known movie'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\n      \u001b[2mat Resolver._throwModNotFoundError (\u001b[22mnode_modules/jest-resolve/build/resolver.js\u001b[2m:427:11)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mtest/fetchFilms.test.js\u001b[39m\u001b[0m\u001b[2m:1:49)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "runtime": 0,
+        "slow": false,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": {
+        "code": "MODULE_NOT_FOUND",
+        "hint": "",
+        "requireStack": [
+          "/Users/carlosgomez/Desktop/the-bridge/ejercicio_API_REST_films_con_test/test/fetchFilms.test.js"
+        ],
+        "siblingWithSimilarExtensionFound": false,
+        "moduleName": "../utils/fetchFilms",
+        "_originalMessage": "Cannot find module '../utils/fetchFilms' from 'test/fetchFilms.test.js'"
+      },
+      "testFilePath": "/Users/carlosgomez/Desktop/the-bridge/ejercicio_API_REST_films_con_test/test/fetchFilms.test.js",
+      "testResults": []
+    }
+  ],
+  "wasInterrupted": false
+}
