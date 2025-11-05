@@ -1,4 +1,4 @@
-async function fetchFilm{
+async function fetchFilm(title) {
   const apiKey = process.env.API_KEY;
   const url = `http://www.omdbapi.com/?apikey=${fc2ee097}&t=${title}`;
   let response = await fetch(url);
