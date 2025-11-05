@@ -1,4 +1,4 @@
-const { fetchFilm } = require('../utils/fetchFilm');
+const { fetchFilm } = require('../utils/fetchFilms');
 
 // [GET] /api/film/:title
 async function getFilm(req, res) {

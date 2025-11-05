@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1762245947609,
+  "startTime": 1762330889878,
   "success": false,
   "testResults": [
     {
@@ -37,10 +37,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1762245947740,
-        "runtime": 88,
+        "end": 1762330889977,
+        "runtime": 71,
         "slow": false,
-        "start": 1762245947652
+        "start": 1762330889906
       },
       "skipped": false,
       "snapshot": {
@@ -88,7 +88,7 @@
       "failureMessage": null
     },
     {
-      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    ReferenceError: title is not defined\n\n    \u001b[0m \u001b[90m 13 |\u001b[39m }\u001b[0m\n    \u001b[0m \u001b[90m 14 |\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m module\u001b[33m.\u001b[39mexports \u001b[33m=\u001b[39m fetchFilm(title)\u001b[0m\n    \u001b[0m \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\n      \u001b[2mat Object.title (\u001b[22mutils/fetchFilm.js\u001b[2m:15:28)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22mcontrollers/films.controllers.js\u001b[2m:1:23)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22mroutes/films.js\u001b[2m:2:25)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22mapp.js\u001b[2m:10:21)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:2:13)\u001b[22m\n",
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    ReferenceError: title is not defined\n\n    \u001b[0m \u001b[90m 13 |\u001b[39m }\u001b[0m\n    \u001b[0m \u001b[90m 14 |\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m module\u001b[33m.\u001b[39mexports \u001b[33m=\u001b[39m fetchFilm(title)\u001b[0m\n    \u001b[0m \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\n      \u001b[2mat Object.title (\u001b[22mutils/fetchFilms.js\u001b[2m:15:28)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22mcontrollers/films.controllers.js\u001b[2m:1:23)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22mroutes/films.js\u001b[2m:2:25)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22mapp.js\u001b[2m:10:21)\u001b[22m\n      \u001b[2mat Object.require (\u001b[22m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:2:13)\u001b[22m\n",
       "leaks": false,
       "numFailingTests": 0,
       "numPassingTests": 0,
@@ -116,7 +116,7 @@
       "testResults": []
     },
     {
-      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module '../utils/fetchFilms' from 'test/fetchFilms.test.js'\n\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 |\u001b[39m \u001b[36mconst\u001b[39m fetchFilm \u001b[33m=\u001b[39m require(\u001b[32m'../utils/fetchFilms'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m   |\u001b[39m                                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 2 |\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 3 |\u001b[39m describe(\u001b[32m'fetchFilm utility'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m 4 |\u001b[39m   it(\u001b[32m'should return movie details for a known movie'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\n      \u001b[2mat Resolver._throwModNotFoundError (\u001b[22mnode_modules/jest-resolve/build/resolver.js\u001b[2m:427:11)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mtest/fetchFilms.test.js\u001b[39m\u001b[0m\u001b[2m:1:49)\u001b[22m\n",
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    ReferenceError: title is not defined\n\n    \u001b[0m \u001b[90m 13 |\u001b[39m }\u001b[0m\n    \u001b[0m \u001b[90m 14 |\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m module\u001b[33m.\u001b[39mexports \u001b[33m=\u001b[39m fetchFilm(title)\u001b[0m\n    \u001b[0m \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\n      \u001b[2mat Object.title (\u001b[22mutils/fetchFilms.js\u001b[2m:15:28)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mtest/fetchFilms.test.js\u001b[39m\u001b[0m\u001b[2m:1:49)\u001b[22m\n",
       "leaks": false,
       "numFailingTests": 0,
       "numPassingTests": 0,
@@ -139,16 +139,7 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testExecError": {
-        "code": "MODULE_NOT_FOUND",
-        "hint": "",
-        "requireStack": [
-          "/Users/carlosgomez/Desktop/the-bridge/ejercicio_API_REST_films_con_test/test/fetchFilms.test.js"
-        ],
-        "siblingWithSimilarExtensionFound": false,
-        "moduleName": "../utils/fetchFilms",
-        "_originalMessage": "Cannot find module '../utils/fetchFilms' from 'test/fetchFilms.test.js'"
-      },
+      "testExecError": {},
       "testFilePath": "/Users/carlosgomez/Desktop/the-bridge/ejercicio_API_REST_films_con_test/test/fetchFilms.test.js",
       "testResults": []
     }

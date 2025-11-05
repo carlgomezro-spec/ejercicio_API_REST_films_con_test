@@ -1,4 +1,4 @@
-async function fetchFilm(title) {
+async function fetchFilm{
   const apiKey = process.env.API_KEY;
   const url = `http://www.omdbapi.com/?apikey=${fc2ee097}&t=${title}`;
   let response = await fetch(url);
@@ -12,4 +12,4 @@ async function fetchFilm(title) {
   return data; // IMPORTANT: devolver la estructura original de OMDB (Title, Year, Director, etc.)
 }
 
-module.exports = fetchFilm(title)
+module.exports = fetchFilm()
